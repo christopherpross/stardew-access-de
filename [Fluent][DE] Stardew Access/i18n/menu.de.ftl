@@ -218,7 +218,8 @@ menu-skills_page-player_info = {$name}, {$title}{$golden_walnut_count ->
   }{$qi_gem_count ->
     [0] {EMPTYSTRING()}
     [1] , ein Qi Edelstein
-    *[other] , {$qi_gem_count} Qi Edelsteine  }
+    *[other] , {$qi_gem_count} Qi Edelsteine
+  }
 menu-skills_page-skill_info = {$name} auf level {$level},
   {$buffs}
 
