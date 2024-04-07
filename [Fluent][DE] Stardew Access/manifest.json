@@ -1,9 +1,9 @@
 ﻿{
-  "Name": "[Fluent][EN] Stardew Access",
-  "Author": "Your Name",
+  "Name": "[Fluent][DE] Stardew Access",
+  "Author": "cpross",
   "Version": "1.0.0",
-  "Description": "<description>",
-  "UniqueID": "<see the readme for an example>",
+  "Description": "German translation for Stardew Access.",
+  "UniqueID": "cpross.fluent.stardewaccess.DE",
   "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
   "ContentPackFor": {
     "UniqueID": "Shockah.ProjectFluent"
