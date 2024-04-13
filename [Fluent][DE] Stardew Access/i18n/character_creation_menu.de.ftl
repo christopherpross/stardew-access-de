@@ -3,15 +3,15 @@
 ## Default Controls
 
 menu-character_creation-farmer_name_text_box = Name deines Charakters {$value ->
-    [null] Eingabefeld, drücke Enter um einen Text einzugeben und Escape um das Eingabefeld zu verlassen.
+    [null] Leeres Eingabefeld.
     *[other] : {$value}
   }
 menu-character_creation-farm_name_text_box = Name deines Bauernhofs {$value ->
-    [null] Eingabefeld, drücke Enter um einen Text einzugeben und Escape um das Eingabefeld zu verlassen.
+    [null] Leeres Eingabefeld.
     *[other] : {$value}
   }
 menu-character_creation-favorite_thing_text_box =  Lieblingsding {$value ->
-    [null] Eingabefeld, drücke Enter um einen Text einzugeben und Escape um das Eingabefeld zu verlassen.
+    [null] Leeres Eingabefeld
     *[other] : {$value}
   }
 menu-character_creation-previous_pet_button = Vorheriges Haustier Schalter

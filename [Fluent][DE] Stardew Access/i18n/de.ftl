@@ -323,12 +323,12 @@ terrain_util-tree_growth_stage = {$stage ->
     *[other] Baum
   }
 terrain_util-bush_type = {$type ->
-    [0] Klein
+    [0] Kleiner
     [1] mittlerer 
     [2] großer
     [3] Tee {$has_matured ->
       [0] Setzling
-      *[1] Busch
+      *[1] Teestrauch
     }
     [4] Goldene Walnuss 
     *[other] unbekannt

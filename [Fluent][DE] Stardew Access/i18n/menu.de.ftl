@@ -38,10 +38,10 @@ options_element-text_box_info = {$label} Eingabefeld {$value ->
     [null] {EMPTYSTRING()}
     *[other] : {$value}
   }
-options_element-checkbox_info = {$is_checked ->
+options_element-checkbox_info = {$label} Kontrollfeld, {$is_checked ->
     [0] Deaktiviert
     *[1] Aktiviert
-  } {$label} Kontrollfeld
+  }
 options_element-dropdown_info = {$label} dropdown, option {$selected_option} ausgewählt
 options_element-slider_info = {$slider_value}% {$label} Schieberegler
 options_element-plus_minus_button_info = {$selected_option} ausgewählt von {$label}
@@ -140,7 +140,7 @@ menu-museum-slot_info = Slot {$x_position}x {$y_position}y
 
 ## Game Menus
 
-menu-game_menu-tab_names = {$tab_name} Tab {$is_active ->
+menu-game_menu-tab_names = {$tab_name} Registerkarte {$is_active ->
     [0] {EMPTYSTRING()}
     *[1] ausgewählt
   }
@@ -268,7 +268,7 @@ menu-item_grab-color_picker_button = Farbe Auswählen: {$is_enabled ->
   }
 menu-item_grab-chest_colors =
   {$index ->
-   [0] Brustfarbe: Braun (Standard)
+   [0] Kistenfarbe: Braun (Standard)
    [1] Blau
    [2] Hellblau
    [3] Türkis
@@ -319,7 +319,7 @@ menu-tailoring-spool_slot = {$is_empty ->
 
 menu-dialogue_box-npc_dialogue_format = {$is_appearing_first_time ->
     [0] {EMPTYSTRING()}
-    *[1] {$npc_name} sagte,
+    *[1] {$npc_name} sagt:
   } {$dialogue}
 
 ## Other Menu Patches
@@ -440,7 +440,7 @@ menu-letter_viewer-letter_message = {$message_content}{$is_money_included ->
   }{$is_quest ->
     [0] {EMPTYSTRING()}
     *[1] 
-      Linksklick um das Quest zu akzeptieren
+      Linksklick um den Auftrag zu akzeptieren
   }
 menu-letter_viewer-pagination_text-prefix = Seite {$current_page} von {$total_pages}
   {$content}
@@ -518,11 +518,11 @@ menu-billboard-calendar-day_info = {$is_current ->
     *[other] , {$extra_info}
   }
 menu-billboard-daily_quest-accept_quest-suffix =
-  Linksklick um das Quest zu akzeptieren.
+  Linksklick um den Auftrag zu akzeptieren.
 
 ### Quest Log Menu (Journal Menu)
 
-menu-quest_log-cancel_quest_button = Quest abbrechen Schalter
+menu-quest_log-cancel_quest_button = Auftrag abbrechen Schalter
 menu-quest_log-reward_button = Belohnung erhalten Schalter
 menu-quest_log-quest_brief = {$name} {$is_completed ->
     [0] {SIGNOFNUMBER($days_left) ->
@@ -564,9 +564,9 @@ menu-special_orders_board-accept_button = {$is_left_quest ->
     [0] rechts
     *[1] Links
   } Quest: {$quest_details}
-  Linksklick um dieses Quest zu akzeptieren.
+  Linksklick um diesen Auftrag zu akzeptieren.
 menu-special_orders_board-quest_in_progress = In arbeit: {$quest_details}
-menu-special_orders_board-quest_completed = Quest {$name} abgeschlossen! Öffne dein journal um deine Belohnung zu erhalten.
+menu-special_orders_board-quest_completed = Auftrag {$name} abgeschlossen! Öffne dein journal um deine Belohnung zu erhalten.
 
 ## Title Menus
 
