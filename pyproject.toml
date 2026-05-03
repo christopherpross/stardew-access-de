@@ -1,0 +1,6 @@
+[project]
+name = "stardew-access-i18n-tools"
+version = "0.1.0"
+description = "I18n diff tools for Stardew Access translations"
+requires-python = ">=3.10"
+dependencies = ["fluent.syntax"]
