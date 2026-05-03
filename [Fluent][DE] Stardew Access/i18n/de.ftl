@@ -54,8 +54,8 @@ feature-tile_viewer-empty_tile_name = Leer
 ## Read Tile
 
 feature-read_tile-manually_triggered_info = {$tile_name}, Kategorie: {$tile_category}
-feature-read_tile-no_tile_found = Keine Spielsteine an den angegebenen Koordinaten gefunden.
-feature-read_tile-tile_indexes = Spielsteinindizes:
+feature-read_tile-no_tile_found = Kein Feld an den angegebenen Koordinaten gefunden.
+feature-read_tile-tile_indexes = Feldindizes:
 
 ## Other
 
@@ -64,7 +64,15 @@ feature-speak_location_name = {$location_name} betreten
 feature-speak_health_n_stamina-in_percentage_format = Gesundheit ist {$health} % und Energie ist {$stamina} %
 feature-speak_health_n_stamina-in_normal_format = Gesundheit ist {$health} und Energie ist {$stamina}
 feature-speak_money = Du hast {$money}g
-feature-speak_time_and_season = Es ist {$time_of_day} Uhr, und wir haben den {$day}. {$date} im {$season}
+feature-speak_time_and_season = Es ist {$time_of_day} Uhr, und wir haben {$day ->
+   [Monday] Montag
+   [Tuesday] Dienstag
+   [Wednesday] Mittwoch
+   [Thursday] Donnerstag
+   [Friday] Freitag
+   [Saturday] Samstag
+   *[Sunday] Sonntag
+ }, Tag {$date} im {$season}.
 feature-speak_position = {$verbose_coordinates ->
     [0] {$x_pos}, {$y_pos}
     *[1] X: {$x_pos}, Y: {$y_pos}
@@ -76,6 +84,8 @@ feature-grid_movement_status = Bewegung im Raster: {$is_active ->
     [0] Inaktiv
     *[1] Aktiv
   }
+feature-speak_youve_got_mail = Du hast Post!
+feature-speak_cheater = Du bist ein böser Cheater!
 
 
 # Building operations

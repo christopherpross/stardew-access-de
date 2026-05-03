@@ -572,6 +572,11 @@ menu-special_orders_board-quest_completed = Auftrag {$name} abgeschlossen! Öffn
 
 ### Title Menu
 
+menu-title-stardew_access_loaded = Stardew Access Version {$version} gestartet {$cheats ->
+    [1] , Cheats sind aktiviert.
+    *[0] {EMPTYSTRING()}
+  }
+menu-title-click_to_skip = Linksklick, um zum Hauptmenü zu gelangen.
 menu-title-new_game_button = Neues Spiel Schalter
 menu-title-load_button = Laden Schalter
 menu-title-co_op_button = Mehrspieler Schalter
